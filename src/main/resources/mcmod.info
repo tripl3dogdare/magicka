@@ -1,0 +1,16 @@
+[
+{
+  "modid": "magicka",
+  "name": "Magicka",
+  "description": "Revolutionizing Minecraft Magic",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/tripl3dogdare/magicka",
+  "updateUrl": "",
+  "authorList": ["tripl3dogdare"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
