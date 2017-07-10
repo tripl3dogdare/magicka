@@ -4,6 +4,17 @@ Magicka is a Minecraft mod designed to make magic about the player and their kno
 
 **It's time for a revolution.**
 
+---
+
+Keep up with development or just give me some chatter on [the Discord server](https://discord.gg/ZSQC874).
+
+Or, you can find my other mods here:
+
+- Backport: https://minecraft.curseforge.com/projects/backport
+- Wrench in the Works: https://minecraft.curseforge.com/projects/wrenchitw
+
+And just in case I forget to keep this list updated (very likely), you can find all my mods, active or otherwise, on [my CurseForge profile](https://minecraft.curseforge.com/members/tripl3dogdare/projects).
+
 
 
 ## Core Design Principles
