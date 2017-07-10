@@ -15,6 +15,8 @@ Or, you can find my other mods here:
 
 And just in case I forget to keep this list updated (very likely), you can find all my mods, active or otherwise, on [my CurseForge profile](https://minecraft.curseforge.com/members/tripl3dogdare/projects).
 
+If you want to support the project, please consider supporting me on [Patreon](https://www.patreon.com/tripl3dogdare) as well. Every little bit of support counts!
+
 
 
 ## Core Design Principles
@@ -86,6 +88,7 @@ Some other ways you can help:
 - Support my other mods - it helps immensely with motivation and morale on my part.
 - Spread the word! The more the merrier, and the more help I can get the better.
 - Bug testing - I can only find and squash so many bugs alone. Once test versions of the mod are ready, any people I can get to test it and report issues back to me are immensely helpful.
+- Support me on my Patreon: https://www.patreon.com/tripl3dogdare
 - Keep an eye on this list of ways you can help for new ways to lend a hand.
 
 
