@@ -1,4 +1,4 @@
-# Magicka: Revolutionizing Minecraft Magic
+![](logo.png)
 
 Magicka is a Minecraft mod designed to make magic about the player and their knowledge, not the items they use. Too long has the Minecraft magic modding community been oversaturated with dozens of factory-made, mass-produced magic staff mods. Too long have we gone without true expressiveness and power.
 
