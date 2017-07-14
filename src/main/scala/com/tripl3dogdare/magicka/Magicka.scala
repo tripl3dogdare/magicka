@@ -18,38 +18,38 @@ import net.minecraft.init.Enchantments
 @Mod(modid=Magicka.MODID, name=Magicka.NAME, version=Magicka.VERSION, modLanguage="scala")
 @Mod.EventBusSubscriber
 object Magicka {
-  final val MODID = "magicka"
-  final val NAME = "Magicka"
-  final val VERSION = "Indev"
+	final val MODID = "magicka"
+	final val NAME = "Magicka"
+	final val VERSION = "Indev"
 
-  val console = LogManager.getLogger(MODID)
+	val console = LogManager.getLogger(MODID)
 	val network = NetworkRegistry.INSTANCE.newSimpleChannel(MODID)
 
-  @SubscribeEvent def registerItems(e:RegistryEvent.Register[Item]) = Items.register(e)
-  @SubscribeEvent def registerBlocks(e:RegistryEvent.Register[Block]) = Blocks.register(e)
-  @SubscribeEvent def registerModels(e:ModelRegistryEvent) = Models.register(e)
+	@SubscribeEvent def registerItems(e:RegistryEvent.Register[Item]) = Items.register(e)
+	@SubscribeEvent def registerBlocks(e:RegistryEvent.Register[Block]) = Blocks.register(e)
+	@SubscribeEvent def registerModels(e:ModelRegistryEvent) = Models.register(e)
 
-  object Items {
-    def register(e:RegistryEvent.Register[Item]) {}
-  }
+	object Items {
+		def register(e:RegistryEvent.Register[Item]) {}
+	}
 
-  object Blocks {
-    def register(e:RegistryEvent.Register[Block]) {}
-  }
+	object Blocks {
+		def register(e:RegistryEvent.Register[Block]) {}
+	}
 
-  object Models {
-    def register(e:ModelRegistryEvent) {}
-  }
+	object Models {
+		def register(e:ModelRegistryEvent) {}
+	}
 
 	val tabMain = new CreativeTabs("magicka") {
-    override def getTabIconItem = {
-      val stack = new ItemStack(net.minecraft.init.Items.ENCHANTED_BOOK)
-      stack.addEnchantment(Enchantments.SMITE, 0)
-      stack
-    }
-  }
+		override def getTabIconItem = {
+			val stack = new ItemStack(net.minecraft.init.Items.ENCHANTED_BOOK)
+			stack.addEnchantment(Enchantments.SMITE, 0)
+			stack
+		}
+	}
 
-  @SubscribeEvent def onConfigChanged(e:OnConfigChangedEvent) =
-    if(e.getModID == "magicka") MagickaConfig.rebuild
+	@SubscribeEvent def onConfigChanged(e:OnConfigChangedEvent) =
+		if(e.getModID == "magicka") MagickaConfig.rebuild
 
 }

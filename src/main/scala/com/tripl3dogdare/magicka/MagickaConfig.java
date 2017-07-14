@@ -9,6 +9,6 @@ public class MagickaConfig {
 	// https://github.com/MinecraftForge/MinecraftForge/pull/4073
 
 	public static void rebuild() {
-	    ConfigManager.sync("wrenchitw", Config.Type.INSTANCE);
+		ConfigManager.sync("wrenchitw", Config.Type.INSTANCE);
 	}
 }
